@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore")
 #'FTHG','FTAG'
 #'HTP','ATP','HTGD','ATGD'
 
-loc = 'C:\\Users\\io\\Desktop\\ALGOTRADING\\sport\\'
+loc = 'C:\\Users\\(...)\\sport\\'
 
 data = pd.read_csv(loc + 'dataset_draws.csv')
 data = data[data.MW > 1]
